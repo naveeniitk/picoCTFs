@@ -1,0 +1,4 @@
+https://linux.die.net/man/1/strings
+strings -n 10 strings
+strings is a useful linux cmd
+strings -n 9 strings | grep pico

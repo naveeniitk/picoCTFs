@@ -1,0 +1,4 @@
+look for the online interpiler for the rockstart language
+pip install rockstar-py
+rockstar-py -i l.rock -o transpiled.txt
+cp transpiled.txt code.py

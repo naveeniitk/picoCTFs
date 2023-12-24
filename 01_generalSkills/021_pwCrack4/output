@@ -1,0 +1,2 @@
+python3 level4.py > flags
+grep pico flags 

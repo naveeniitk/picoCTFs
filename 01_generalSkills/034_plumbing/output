@@ -1,0 +1,2 @@
+nc jupiter.challenges.picoctf.org 4427 > fileout
+grep pico fileout | bc

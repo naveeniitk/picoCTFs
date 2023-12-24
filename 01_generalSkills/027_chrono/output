@@ -1,0 +1,4 @@
+ssh -p 56857 picoplayer@saturn.picoctf.net
+look for https://www.freecodecamp.org/news/cron-jobs-in-linux/ 
+figure out the use of /etc directory
+cat crontab in /etc

@@ -1,0 +1,2 @@
+./ltdis.sh static
+grep pico *

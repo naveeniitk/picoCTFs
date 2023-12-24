@@ -1,0 +1,4 @@
+nc jupiter.challenges.picoctf.org 29956
+1. use ocatl to text conversion : https://v2.cryptii.com/octal/text
+
+2. use base64 to hexdecode into text: https://toolbox.googleapps.com/apps/encode_decode/

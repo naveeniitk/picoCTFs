@@ -1,0 +1,10 @@
+read the thread : https://www.sololearn.com/en/Discuss/851214/exe-to-assembly-to-c-or-c
+
+objdump -Slx svchost.exe > svc.S
+
+You can install Cygwin and use objdump to decompile an exe into asm. Be sure you select the binutils when installing cygwin. 
+After installing cygwin, you can run the following from a bash shell:
+
+objdump -Slx yourpgm.exe
+
+Try ghidra for looking at the assembly dump by objdump or directly .exe file

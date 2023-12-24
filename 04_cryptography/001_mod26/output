@@ -1,0 +1,2 @@
+use online decoder else by hand
+python3 rot.py < text | cc

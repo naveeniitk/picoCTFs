@@ -1,0 +1,5 @@
+1. connect to the server
+2. tryout the syntax 
+3. find a writeup
+4. observe the working of some commands like grep and pwd in double quotes
+5. now grep -r "pico" to find a file 

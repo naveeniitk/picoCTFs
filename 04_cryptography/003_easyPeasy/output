@@ -1,0 +1,18 @@
+otp.py is just copy of implementation of otp.py on server
+pip3 install pwn
+need my input to be len(input) - 32(for keylocation) = 50000-32
+
+so basically while running on the server we can manipulate the key_location to out advantage.
+> first send input(with 50000-32 bytes) of data : this will move the key to (50000%(len(input)+32))==0
+
+> then just send the a's or b's any thing [ 32 bytes ]
+
+> now while running the script the key_location is 0. 
+    and the encodedFlag that we get(64bit) is encrypted with this specific keylocation=0
+    and now we are at that stage manually and 
+    we do no know the key but we know 2 values whose xor is the key as
+        - [text send as input] ^ [key] = [ result we will get while running on server when keyLoc = 0]
+        - [encoded_flag ] ^ ([textsend] ^ [result got]) = what we need in 64 bits 
+
+
+https://www.youtube.com/watch?v=bxRvOi0tqvs

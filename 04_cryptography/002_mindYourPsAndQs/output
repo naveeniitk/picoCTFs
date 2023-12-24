@@ -1,0 +1,39 @@
+RSA decryption using only n, e and c
+
+can be solved using the tool : https://github.com/RsaCtfTool/RsaCtfTool
+
+https://www.simplilearn.com/tutorials/cryptography-tutorial/rsa-algorithm#:~:text=Encryption%2FDecryption%20Function,-Once%20you%20generate&text=Value%20of%20e%20can%20be,1)(q%2D1).&text=If%20the%20plaintext(m)%20value,formula%20cd%20mod%20n%20%3D%2029.
+
+
+Steps in RSA algorithm:
+- need to generate public and private keys before running the functions
+	 to generate your cipheretext and plaintext
+
+- use of certain vars and parameters : 
+    > choose two large prime numbers (p, q)
+    > calculate : n = p*q and z = phi(n) = (p-1)(q-1)
+    > choose a number: e : 1 < e < z
+    > now consider a number d: such that
+        #  (e * d)%z = 1
+        => d = (e^(-1))%z
+
+    > private key pair (n, d)
+    > public key pair (n, e)
+
+ 
+- Use of encryption/decryption funciton 
+    > suppose your plaintext : m 
+    > ciphertext : c = (M^e)%n
+    
+    > suppose ciphertext : c
+    > plaintext  : m = (c^d)%n
+
+-  install sympy to use totient function
+from sympy.ntheroy.factor_ import totient
+#phi(n) = z
+z = totient(n)
+
+
+https://www.alpertron.com.ar/ECM.HTM
+for integer factorization
+

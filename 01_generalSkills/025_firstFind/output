@@ -1,0 +1,4 @@
+unzip files.zip
+cat files/adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt | grep pico | bc
+tree -a
+grep -r pico files

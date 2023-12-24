@@ -1,0 +1,3 @@
+nc saturn.picoctf.net 52682
+add the output to a python file : cat > pyflag.py
+python3 pyflag.py

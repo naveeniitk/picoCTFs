@@ -1,0 +1,10 @@
+wzr are zero registers
+
+basically this is just a for loop looping till arg
+while adding 3 to a specific location 
+i.e. *(sp + 24) 
+
+thus, ans = hex(arg*3) 
+getting a 9 digit hex code 
+but after putting 8 digits of hex flag works
+makes me wonder if it is unsigned?

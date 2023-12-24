@@ -1,0 +1,5 @@
+brew install aarch64-elf-binutils
+Using the above two guides, we can run the following commands to cross compile the challenge ARM assembly code.
+aarch64-linux-gnu-as -o chall.o chall.S
+aarch64-linux-gnu-gcc -static -o chall chall.o
+

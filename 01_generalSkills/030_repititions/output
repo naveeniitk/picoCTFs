@@ -1,0 +1,4 @@
+i think these are coded in base64
+use a online base64 decoder: https://www.base64decode.org/
+python3 base64Decode.py > decoded_output
+grep pico decoded_output

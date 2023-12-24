@@ -1,0 +1,2 @@
+python3 fixme2.py | cut -b 36- | clipboard
+after resolving syntax error

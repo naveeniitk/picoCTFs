@@ -1,0 +1,2 @@
+nc jupiter.challenges.picoctf.org 41120 > flag.txt
+grep "pico" flag.txt | clipboard

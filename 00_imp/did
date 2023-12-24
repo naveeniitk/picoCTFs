@@ -1,0 +1,10 @@
+echo -e >> read;
+echo "Start updating . . .";
+for (( i = 1; i <= 100; i++ )); do
+	echo "Line $i: ";
+	read R;
+	if [[ $R == "" ]]; then
+		break;
+	fi 
+	echo "- $R" >> read
+done

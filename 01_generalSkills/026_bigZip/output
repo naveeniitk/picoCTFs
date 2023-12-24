@@ -1,0 +1,2 @@
+grep -r pico big-zip-files
+grep picoC flagout | cut -b 190- | bc 

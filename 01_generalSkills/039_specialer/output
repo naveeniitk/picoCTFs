@@ -1,0 +1,9 @@
+pwd is working not ls
+cd .. is also working
+grep command not working
+whoami command not working
+The following command echo  can be used to print out the contents of flag.txt
+The following command echo $(<flag.txt) can be used to print out the contents of flag.txt
+use tabs to navigate to ctf-player and find files there
+use  to get the contents of the file
+use $(<filename) to get the contents of the file

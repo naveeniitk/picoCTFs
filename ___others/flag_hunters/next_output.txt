@@ -1,0 +1,141 @@
+start: 15
+refrain_return: 12
+refrain: 7
+1 Command line wizards, we’re starting it right,
+2 Spawning shells in the terminal, hacking all night.
+3 Scripts and searches, grep through the void,
+4 Every keystroke, we're a cypher's envoy.
+5 Brute force the lock or craft that regex,
+6 Flag on the horizon, what challenge is next?
+7 
+9 We’re flag hunters in the ether, lighting up the grid,
+10 No puzzle too dark, no challenge too hid.
+11 With every exploit we trigger, every byte we decrypt,
+12 We’re chasing that victory, and we’ll never quit.
+Crowd: 15 
+16 Echoes in memory, packets in trace,
+17 Digging through the remnants to uncover with haste.
+18 Hex and headers, carving out clues,
+19 Resurrect the hidden, it's forensics we choose.
+20 Disk dumps and packet dumps, follow the trail,
+21 Buried deep in the noise, but we will prevail.
+22 
+24 We’re flag hunters in the ether, lighting up the grid,
+25 No puzzle too dark, no challenge too hid.
+26 With every exploit we trigger, every byte we decrypt,
+27 We’re chasing that victory, and we’ll never quit.
+28 Crowd: hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello
+28 hello

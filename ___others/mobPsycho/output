@@ -1,0 +1,150 @@
+16390  wget https://artifacts.picoctf.net/c_titan/141/mobpsycho.apk
+16391  c
+16392  ls
+16393  cd _mobpsycho.apk.extracted/
+16394  ls
+16395  sl
+16396  c
+16397  sl
+16398  clear
+16399  file *
+16400  subl *
+16401  c
+16402  ls
+16403  cd res
+16404  ls
+16405  d
+16406  c
+16407  cd META-INF/
+16408  sl
+16409  c
+16410  c
+16411  cd com
+16412  ls
+16413  cd ad
+16414  file *
+16415  cd android/
+16416  ls
+16417  cd build/
+16418  ls
+16419  cd gradle/
+16420  ls
+16421  file *
+16422  cat app-metadata.properties 
+16423  d
+16424  d
+16425  d
+16426  d
+16427  c
+16428  ls
+16429  cd ME
+16430  cd services/
+16431  ls
+16432  c
+16433  ls
+16434  file *
+16435  cat kotlinx.coroutines.
+16436  subl -add *
+16437  ls
+16438  c
+16439  d
+16440  d
+16441  ls
+16442  sl
+16443  c
+16444  sl
+16445  cd res
+16446  ls
+16447  grep -r "pico" .
+16448  ls
+16449  c
+16450  ls
+16451  sl
+16452  c
+16453  sl
+16454  file *
+16455  c
+16456  strings * | grep -r "pico"
+16457  c
+16458  strings * | grep "pico"
+16459  c
+16460  strings -r * | grep -r "pico"
+16461  strings -r * | grep "pico"
+16462  c
+16463  ls
+16464  cd anim
+16465  ls
+16466  c
+16467  ls
+16468  strings *
+16469  strings * | grep "pico"
+16470  d
+16471  c
+16472  ls
+16473  c
+16474  ls
+16475  d
+16476  c
+16477  ls
+16478  d
+16479  ls
+16480  ls
+16481  c
+16482  ls
+16483  c
+16484  ls
+16485  cd _mobpsycho.apk.extracted/
+16486  ls
+16487  clear
+16488  ls
+16489  strings * | grep "pico"
+16490  c
+16491  ls
+16492  strings *dex | grep "pico"
+16493  strings *.* | grep "pico"
+16494  c
+16495  ls
+16496  cd res
+16497  ls
+16498  c
+16499  sl
+16500  grep -r 'pico' .
+16501  grep -r 'flag' .
+16502  grep -r '{.*}' .
+16503  c
+16504  d
+16505  strings * | grep "pico"
+16506  strings *.xml | grep "pico"
+16507  ls -R | grep flag -B 20
+16508  c
+16509  d
+16510  c
+16511  strings * | grep flag
+16512  cd _mobpsycho.apk.extracted/res/color/
+16513  ls
+16514  cat flag.txt 
+16515  cat flag.txt | base64 -d
+16516  c
+16517  cat flag.txt 
+16518  cat flag.txt | base16 -d
+16519  cat flag.txt | base132 -d
+16520  xxd -g 1 flag.txt 
+16521  hexcurse flag.txt 
+16522  c
+16523  ls
+16524  cat flag.txt 
+16525  c
+16526  python3 -c 'print(hex(7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d))'
+16527  python3 -c 'print(hex(0x7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d))'
+16528  python3 -c 'print(hex.decode(7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d))'
+16529  printf '0x7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d'
+16530  c
+16531  printf '\x7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d'
+16532  echo echo 4E | xxd -r -p
+16533  echo 069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d | xxd -r -p
+16534  cat flag.txt 
+16535  echo 7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f62313132616535377d | xxd -r -p
+16536  c
+16537  history
+LM0008187:color naveen1.mathur$ 
+
